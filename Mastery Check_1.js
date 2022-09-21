@@ -44,8 +44,17 @@ function factorial_iter(n){
     return helper(1, 1); 
 }
 
-factorial_iter(5);
 
+//Lambda Expression 
+
+//Normal Function declarations
+function plus4(x) { 
+    return x + 4; 
+}
+
+
+//Lambda Expression for the equivalent
+const plus_4 = x => x + 4;
 
 
 
