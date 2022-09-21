@@ -56,7 +56,7 @@ function plus4(x) {
 //Lambda Expression for the equivalent
 const plus_4 = x => x + 4;
 
-//A Good use of Lambda Expression
+//Use of Lambda Expression
 
 function square(x) {
     return x * x;
