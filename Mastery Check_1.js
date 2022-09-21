@@ -36,10 +36,10 @@ function factorial(n){
 
 //Iterative Version of the Code
 function factorial_iter(n){
-    function helper(m,result){
+    function helper(m, result){
         return m > n
                 ? result
-                    : helper(m+1, result * m);
+                    : helper(m + 1, result * m);
     }
     return helper(1,1); 
 }
