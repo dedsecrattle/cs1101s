@@ -41,7 +41,7 @@ function factorial_iter(n){
                 ? result
                     : helper(m + 1, result * m);
     }
-    return helper(1,1); 
+    return helper(1, 1); 
 }
 
 factorial_iter(5);
